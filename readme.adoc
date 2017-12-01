@@ -1,0 +1,5 @@
+= Advent of code in Kotlin®
+
+http://adventofcode.com/2017/
+
+`./gradlew clean build`
