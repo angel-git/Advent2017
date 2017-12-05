@@ -33,7 +33,7 @@ class TrampolinesTest: FeatureSpec() {
 
                 tramp2(example) shouldBe 10
                 val input = File("src/test/kotlin/day5/trampolines.txt").readText()
-                tramp2(input) shouldBe 0
+                tramp2(input) shouldBe 24490906
             }
         }
 
