@@ -3,7 +3,7 @@ package day6
 import io.kotlintest.matchers.shouldBe
 import io.kotlintest.specs.FeatureSpec
 
-class Day6Test : FeatureSpec() {
+class MemoryTest : FeatureSpec() {
 
     init {
         feature("Day 6: Memory Reallocation") {
