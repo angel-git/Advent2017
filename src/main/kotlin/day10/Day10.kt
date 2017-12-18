@@ -38,5 +38,5 @@ private fun reverse(list: MutableList<Int>, index: Int, length: Int) {
 private fun xor(list: List<Int>) = list.fold(0, { a, b -> a xor b })
 
 fun List<Int>.hex(): String {
-    return this.fold("", {a, b -> a + Integer.toHexString(b)})
+    return this.fold("", {a, b -> a + Integer.toHexString(b).padStart(2, '0')})
 }

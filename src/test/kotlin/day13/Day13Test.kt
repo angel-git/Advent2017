@@ -8,7 +8,7 @@ class Day13Test : FeatureSpec() {
 
     init {
 
-        feature("Day 12") {
+        feature("Day 13") {
             val input = File("src/test/kotlin/day13/input.txt").readText()
             val example = "0: 3\n" +
                     "1: 2\n" +
